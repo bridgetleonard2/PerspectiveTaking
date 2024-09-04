@@ -31,33 +31,21 @@ This benchmark contains 3 different task types: 1) level 1 (in front/behind eval
 
 The repository is organized into the following directories:
 
+```bash
 PerspectiveTaking/
-
 ├── GPT/                    # Contains code to run GPT task and results
-
-│   └── results/            # GPT task data (e.g., experimental results)
-
-│   └── gpt_task.py         # API code to run the task
-
+│   ├── results/            # GPT task data (e.g., experimental results)
+│   ├── gpt_task.py         # API code to run the task
 │   └── plot_data.py        # Analysis for GPT task
-
 ├── Human/                  # Contains code to run human task and results
-
-│   └── data/               # Human task data (e.g., experimental results)
-
-│   └── experiments_code/   # Psychtoolbox experiments code
-
+│   ├── data/               # Human task data (e.g., experimental results)
+│   ├── experiments_code/   # Psychtoolbox experiments code
 │   └── averageResults.m    # Analysis for human task
-
 ├── images/                 # Benchmark images
-
-│   └── bitmap              # bitmap version for PTB experiments
-
-│   └── jpeg                # jpeg versions for API experiments
-
+│   ├── bitmap/             # Bitmap version for PTB experiments
+│   └── jpeg/               # Jpeg versions for API experiments
 ├── README.md               # Project overview (this file)
-
 ├── requirements.txt        # Dependencies for running the project
-
 └── LICENSE                 # License information
+```
 
