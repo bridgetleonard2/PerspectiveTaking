@@ -68,7 +68,7 @@ PerspectiveTaking/
 To run the task through OpenAI's API to test any GPT model available, use:
 
 ```bash
-python .\GPT\gpt_task.py <num_runs> <task> <api_key>
+python .\GPT\gpt_task.py <num_runs> <task> <api_key> <output_filename>
 ```
 
 This script will send tasks to an AI model and retrieve results for comparison with human performance.
