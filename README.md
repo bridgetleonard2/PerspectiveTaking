@@ -49,3 +49,73 @@ PerspectiveTaking/
 └── LICENSE                 # License information
 ```
 
+## Getting Started
+
+### Installation
+
+Here's the README template in markdown format:
+
+markdown
+Copy code
+# PerspectiveTaking: A Multimodal Spatial Cognition Assessment Benchmark
+
+## Overview
+
+This repository accompanies a NeurIPS workshop paper submission, providing a benchmark for multimodal spatial cognition assessment with a focus on **perspective taking**. This benchmark explores how AI models approach tasks involving the mental rotation and transformation of objects, tested through tasks commonly used in human cognitive science.
+
+### Why Perspective Taking Matters
+
+Understanding spatial cognition is fundamental for the development of AI systems that interact meaningfully with the world. Perspective taking is a core cognitive process that allows humans to interpret spatial relationships between objects from different viewpoints. This ability develops over time in human cognition and has been studied extensively in cognitive science.
+
+The methods we use to assess AI systems must accurately reflect the cognitive processes we are interested in. By leveraging cognitive science benchmarks, we can compare AI and human cognitive abilities on a developmental timeline, fostering a better understanding of both systems. This ensures that we are measuring not just performance, but whether AI systems are truly learning the cognitive skills humans rely on.
+
+## Repository Structure
+
+The repository is organized into the following directories:
+
+PerspectiveTaking/ ├── data/ # Contains datasets used in the benchmark │ └── human_tasks/ # Human task data (e.g., experimental results) │ └── api_tasks/ # Results from AI model assessments ├── experiments/ # Contains code to run human and model tasks │ └── run_human_task.py # Script to run human participant tasks │ └── run_api_task.py # Script to run the task on AI models ├── analysis/ # Scripts and notebooks for analyzing results │ └── analyze_results.ipynb# Jupyter notebook for benchmark analysis ├── models/ # Contains pretrained models or model scripts │ └── api_model.py # API implementation for AI model assessment ├── results/ # Output results for human and AI tasks ├── README.md # Project overview (this file) ├── requirements.txt # Dependencies for running the project └── LICENSE # License information
+
+bash
+Copy code
+
+## Getting Started
+
+### Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/PerspectiveTaking.git
+   cd PerspectiveTaking
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Running the API Task
+
+To run the task through OpenAI's API to test any GPT model available, use:
+
+```bash
+python .\GPT\gpt_task.py <num_runs> <task> <api_key>
+```
+
+This script will send tasks to an AI model and retrieve results for comparison with human performance.
+
+## Running the Human Task
+
+We implemented the human task with PsychToolBox in a Matlab environment. Responses and response times were collected to assess perspective-taking and mental rotation.
+
+Code for these experiments is available and can be converted to work with other research software available.
+
+## Analysis
+
+To analyze API results, use:
+
+```bash
+python .\GPT\plot_data.py  <filepath> <task_type> <plot_with_human_data>
+```
+
+To analyze human results, refer to the Matlab script found at `Human/averageResults.m`
+
+
