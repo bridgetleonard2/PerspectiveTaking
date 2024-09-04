@@ -19,6 +19,7 @@ This benchmark contains 3 different task types: 1) level 1 (in front/behind eval
   <br>
   <i>Level 1 stimulus (left) and Level 2 spatial stimulus (right)</i>
   <br>
+  <br>
   <img src="/images/jpeg/9_6/6_225.jpeg" alt="6 on cube 225°" style="width:45%; float: left; margin-right: 2%;"/>
   <img src="/images/jpeg/M_W/W_45.jpeg" alt="W on cube 45°" style="width:45%; float: left;" />
   <br>
