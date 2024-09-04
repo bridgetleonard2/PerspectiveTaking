@@ -10,6 +10,22 @@ Understanding spatial cognition is fundamental for the development of AI systems
 
 The methods we use to assess AI systems must accurately reflect the cognitive processes we are interested in. By leveraging cognitive science benchmarks, we can compare AI and human cognitive abilities on a developmental timeline, fostering a better understanding of both systems. This ensures that we are measuring not just performance, but whether AI systems are truly learning the cognitive skills humans rely on.
 
+## Benchmark Tasks
+This benchmark contains 3 different task types: 1) level 1 (in front/behind evaluation), 2) level 2 spatial (left/right evaluation), and 3) level 2 visual (9/6 or M/W). For each task, there are 16 images each representing an avatar and objects around this avatar at varying degrees. The goal of each task is to evaluate the position of the objects (spatial) or what is displayed on them (visual) from the perspective of the avatar.
+
+<div align="center">
+  <img src="/images/jpeg/infront_behind/cube_front_135.jpeg" alt="Cube in front at 135°" style="width:45%; float: left; margin-right: 2%;" />
+  <img src="/images/jpeg/left_right/right_cube_270.jpeg" alt="Cube to the right 270°" style="width:52%; float: left;" />
+  <br>
+  <i>Level 1 stimulus (left) and Level 2 spatial stimulus (right)</i>
+  <br>
+  <img src="/images/jpeg/9_6/6_225.jpeg" alt="6 on cube 225°" style="width:45%; float: left; margin-right: 2%;"/>
+  <img src="/images/jpeg/M_W/W_45.jpeg" alt="W on cube 45°" style="width:52%; float: left;" />
+  <br>
+  <i>Level 2 visual stimulus using numbers (left) and Level 2 visual stimulus using letters (right)</i>
+  <br>
+</div>
+
 ## Repository Structure
 
 The repository is organized into the following directories:
