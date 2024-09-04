@@ -1,0 +1,12 @@
+base64
+requests
+tqdm
+numpy
+matplotlib
+scipy
+
+# Matlab is required for the following:
+# Human/experiments_code/
+# Human/averageResults.m
+
+# Human data (.mat) files can be loaded using scipy.io.loadmat
