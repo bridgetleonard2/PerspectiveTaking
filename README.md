@@ -53,35 +53,6 @@ PerspectiveTaking/
 
 ### Installation
 
-Here's the README template in markdown format:
-
-markdown
-Copy code
-# PerspectiveTaking: A Multimodal Spatial Cognition Assessment Benchmark
-
-## Overview
-
-This repository accompanies a NeurIPS workshop paper submission, providing a benchmark for multimodal spatial cognition assessment with a focus on **perspective taking**. This benchmark explores how AI models approach tasks involving the mental rotation and transformation of objects, tested through tasks commonly used in human cognitive science.
-
-### Why Perspective Taking Matters
-
-Understanding spatial cognition is fundamental for the development of AI systems that interact meaningfully with the world. Perspective taking is a core cognitive process that allows humans to interpret spatial relationships between objects from different viewpoints. This ability develops over time in human cognition and has been studied extensively in cognitive science.
-
-The methods we use to assess AI systems must accurately reflect the cognitive processes we are interested in. By leveraging cognitive science benchmarks, we can compare AI and human cognitive abilities on a developmental timeline, fostering a better understanding of both systems. This ensures that we are measuring not just performance, but whether AI systems are truly learning the cognitive skills humans rely on.
-
-## Repository Structure
-
-The repository is organized into the following directories:
-
-PerspectiveTaking/ ├── data/ # Contains datasets used in the benchmark │ └── human_tasks/ # Human task data (e.g., experimental results) │ └── api_tasks/ # Results from AI model assessments ├── experiments/ # Contains code to run human and model tasks │ └── run_human_task.py # Script to run human participant tasks │ └── run_api_task.py # Script to run the task on AI models ├── analysis/ # Scripts and notebooks for analyzing results │ └── analyze_results.ipynb# Jupyter notebook for benchmark analysis ├── models/ # Contains pretrained models or model scripts │ └── api_model.py # API implementation for AI model assessment ├── results/ # Output results for human and AI tasks ├── README.md # Project overview (this file) ├── requirements.txt # Dependencies for running the project └── LICENSE # License information
-
-bash
-Copy code
-
-## Getting Started
-
-### Installation
-
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/PerspectiveTaking.git
