@@ -15,12 +15,12 @@ This benchmark contains 3 different task types: 1) level 1 (in front/behind eval
 
 <div align="center">
   <img src="/images/jpeg/infront_behind/cube_front_135.jpeg" alt="Cube in front at 135°" style="width:45%; float: left; margin-right: 2%;" />
-  <img src="/images/jpeg/left_right/right_cube_270.jpeg" alt="Cube to the right 270°" style="width:52%; float: left;" />
+  <img src="/images/jpeg/left_right/right_cube_270.jpeg" alt="Cube to the right 270°" style="width:45%; float: left;" />
   <br>
   <i>Level 1 stimulus (left) and Level 2 spatial stimulus (right)</i>
   <br>
   <img src="/images/jpeg/9_6/6_225.jpeg" alt="6 on cube 225°" style="width:45%; float: left; margin-right: 2%;"/>
-  <img src="/images/jpeg/M_W/W_45.jpeg" alt="W on cube 45°" style="width:52%; float: left;" />
+  <img src="/images/jpeg/M_W/W_45.jpeg" alt="W on cube 45°" style="width:45%; float: left;" />
   <br>
   <i>Level 2 visual stimulus using numbers (left) and Level 2 visual stimulus using letters (right)</i>
   <br>
